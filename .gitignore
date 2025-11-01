@@ -1,6 +1,0 @@
-__pycache__/
-*.pyc
-.env
-fifa_teams.db
-venv/
-.DS_Store
