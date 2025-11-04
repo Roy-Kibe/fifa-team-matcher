@@ -18,7 +18,7 @@ def generate_opponent(player_team, same_league=False):
         league=league
     )
     if not available:
-        return ValueError("No available teams found for the given criteria.")
+        raise ValueError("No available teams found for the given criteria.")
     
     ## Randomly select an opponent from the available teams and using given criteria
     return random.choice(available)
